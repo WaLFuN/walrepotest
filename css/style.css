@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "edosz";
+  src: url('../police/edosz.ttf');
+}
+
+@font-face {
+  font-family: "champigna";
+  src: url('../police/champigna.ttf');
+}
+
+@font-face {
+  font-family: "sf-new-republic";
+  src: url('../police/sf-new-republic.ttf');
+}
+
+@font-face {
+  font-family: "traveling-typewriter";
+  src: url('../police/traveling-typewriter.ttf');
+}
+
+@font-face {
+  font-family: "rock";
+  src: url('../police/rock.ttf');
+}
+
+body {
+  background-color: grey;
+  background-image: url(../image/background.jpg);
+  background-repeat: repeat-y;
+  background-position-x: center;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: edosz;
+}
+
+h2 {
+  font-family: edosz;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-family: edosz;
+}
+
+p {
+  font-family: edosz;
+  margin-bottom: 0px;
+}
+
+hr {
+  width: 100%;
+  size: 2%;
+}
+
+button {
+  font-family: edosz;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#img-upload{
+  width: 100%;
+}
+
+.article {
+  background-color: rgba(45, 50, 169, 0.90);
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.article h3 {
+  color: white;
+  font-family: champigna;
+}
+
+.article p {
+    font-family: sf-new-republic;
+    color: ecced3;
+    margin-bottom: 0px;
+}
+
+.imgart {
+    max-width:340px;
+    max-height: 300px;
+}
+
+.imgban {
+  font-family: traveling-typewriter;
+  color : white;
+  font-size: 30px;
+}
+
+.txtmenu {
+  font-family: rock;
+}
